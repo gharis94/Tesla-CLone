@@ -7,7 +7,7 @@ import Section from '../Section/Section';
 const Home =()=>{
     return(
         <Container>
-            <Section/>
+            <Section title={'Model S'} description={'order online for contactless delivery'} rightBtnText={"order now"} leftBtnText={'Existing Inventory'}/>
         </Container>
     )
 }
